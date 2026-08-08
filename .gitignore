@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Build output
+target/
+build/
+bin/
+
+# OS noise
+Thumbs.db
+.DS_Store
