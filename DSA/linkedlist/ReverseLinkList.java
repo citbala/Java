@@ -1,12 +1,5 @@
 package linkedlist;
 
-class ListNode{
-    int data;
-    ListNode next;
-    ListNode(int data){
-        this.data =data;
-    }
-}
 
 public class ReverseLinkList {
     public static void main(String[] args) {
