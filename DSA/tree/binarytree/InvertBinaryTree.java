@@ -47,7 +47,7 @@ public class InvertBinaryTree {
         while(!queue.isEmpty()){
             TreeNode curr = queue.poll();
             if(curr != null){
-                list.add(Integer.toString(curr.val));//1,2,3,4,5
+                list.add(Integer.toString(curr.data));//1,2,3,4,5
                 queue.add(curr.left);
                 queue.add(curr.right);
             }
